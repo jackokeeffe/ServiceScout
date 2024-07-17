@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    margin-top: 25vh;
+}
+
+#logo{
+    width: 12%;
+    user-select: none;
+    pointer-events: none;
+}
