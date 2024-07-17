@@ -2,7 +2,7 @@ function search(){
     document.getElementById("button").innerHTML = "Loading..."
     Ordercode = document.getElementById("code").value
     console.log(Ordercode)
-    fetch('http://servicescout.pythonanywhere.com/request/', {
+    fetch('https://servicescout.pythonanywhere.com/request/', {
     method: 'POST',
     headers: {
         'Accept': 'application/json',
