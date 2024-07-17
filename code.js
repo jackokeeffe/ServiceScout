@@ -17,7 +17,7 @@ function search(){
 function update(response){
     document.getElementById("button").innerHTML = "Search"
     if (response[0] == "Not valid"){
-        document.getElementById("name").innerHTML = "Order number not found. Please try again, or contact us at klmarinaservice@gmail.com"
+        document.getElementById("name").innerHTML = "Service number not found. Please try again, or contact us at klmarinaservice@gmail.com"
     } else {
         /* maybe dont show name? */
         document.getElementById("name").innerHTML = "Name: " + response[1]
